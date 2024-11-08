@@ -638,8 +638,6 @@ public final class NotificationPanelViewController implements ShadeSurface, Dump
 
     private final PowerManagerInternal mLocalPowerManager;
 
-    private final PowerManagerInternal mLocalPowerManager;
-
     private final Runnable mFlingCollapseRunnable = () -> fling(0, false /* expand */,
             mNextCollapseSpeedUpFactor, false /* expandBecauseOfFalsing */);
     private final Runnable mAnimateKeyguardBottomAreaInvisibleEndRunnable =
